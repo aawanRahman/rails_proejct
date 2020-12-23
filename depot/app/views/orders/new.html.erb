@@ -1,0 +1,14 @@
+
+<div class="depot_form">
+  <fieldset>
+    <legend>Please Enter Your Details</legend>
+    <%= render 'form', order: @order %>
+  </fieldset>
+</div>
+
+
+
+
+
+<% link_to 'Back', orders_path  %> </br>
+<%= button_to "Back", orders_path, method: :get %>
